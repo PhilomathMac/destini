@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var storyLabel: UILabel!
+    @IBOutlet var choice1Button: UIButton!
+    @IBOutlet var choice2Button: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func choiceButtonClicked(_ sender: UIButton) {
+        
+    }
+    
 }
 

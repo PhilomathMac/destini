@@ -45,6 +45,9 @@
                                                 <integer key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="choiceButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="03c-cS-hmT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="101" verticalCompressionResistancePriority="101" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ra-Qx-RN0">
                                         <rect key="frame" x="0.0" y="594" width="335" height="100"/>
@@ -61,6 +64,9 @@
                                                 <integer key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="choiceButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWF-78-P2p"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -78,6 +84,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MU4-9U-dJM" secondAttribute="trailing" constant="20" id="ywm-ly-x0A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1Button" destination="Tyh-GP-Qhn" id="YdR-b5-0Tq"/>
+                        <outlet property="choice2Button" destination="2Ra-Qx-RN0" id="Vrs-S7-Gn0"/>
+                        <outlet property="storyLabel" destination="sEC-PM-e6g" id="e7l-lQ-YsI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
