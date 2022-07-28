@@ -3,7 +3,7 @@
 //  Destini
 //
 //  Created by McKenzie Macdonald on 7/28/22.
-//
+//  Story strings used in app created by the AppBrewery as part of the Complete App Development Bootcamp.
 
 import UIKit
 
