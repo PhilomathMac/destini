@@ -20,7 +20,7 @@ A short choose-your-own-adventure app : don't get murdered!
 
 ## Use Instructions
 
-Nothing needed to make this simple app work. Simple fork and run. 😄
+Nothing needed to make this simple app work. Simply clone and run.
 
 ## Attributions
 
